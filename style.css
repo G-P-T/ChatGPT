@@ -30,7 +30,7 @@
         .requestBody,
         .response .markdown-body {
             max-width: calc(100% - 88px);
-        }
+        } 
 
         .bottom_wrapper {
             max-width: 100%;
