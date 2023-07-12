@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,7 +13,7 @@
     <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png" sizes="144x144">
-    <title>Чат GPT X</title>
+    <title>TalkGPT</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -69,12 +68,11 @@
 <script>
   vkBridge.send('VKWebAppInit');</script>
 </head>
-
 <body>
 <div id="popup">
-  <h2>На основе истории данных интернет...</h2>
-  <p>Чат GPT X умеет шутить 🤣, играть, тренировать, писать сочинения и рассказывать сказки, объяснять научные концепции простым языком, писать рабочий программный код 💻, и многое другое...</p>
-  <button id="closeButton">Отлично!</button>
+  <h3 style="text-align: center;">Говорите TalkGPT:</h3>
+  <p>1. Расскажи историю про меня и ... <br><br>2. Переведи на разговорный китайский ... <br><br>3. Как познакомиться и завести друзей? <br> --- <br>99. Изысканное блюдо - у меня есть капуста и ... <br> + <br>∞ что-нибудь ещё)...</p>
+  <button id="closeButton">Давайте!</button>
 </div>
 <script>
 // Проверяем, есть ли запись в localStorage о том, что окно больше не нужно показывать
@@ -369,7 +367,7 @@ document.addEventListener('click', function(event) {
                     <div class="button minimize"></div>
                     <div class="button maximize"></div>
                 </div>
-                <div class="title"><span>Чат GPT X</span></div>
+                <div class="title"><span>TalkGPT</span></div>
                 <div class="settings">
                     <button class="setBtn" id="toggleFull" data-i18n-window title>
                         <svg width="30" height="30">
@@ -1370,7 +1368,7 @@ document.addEventListener('click', function(event) {
                 "second": "с",
                 "keepListenMic": "Слушать",
                 "send": "➤",
-                "askTip": "Пишите, что хотите)",
+                "askTip": "Говорите, что хотите)",
                 "clearChat": "Очистить чат",
                 "general": "Общие",
                 "hotkey": "Горячие клавиши",
@@ -1438,8 +1436,8 @@ document.addEventListener('click', function(event) {
                 "noModelPerTip": "Нет разрешения на использование этой модели, пожалуйста, выберите другую модель GPT!",
                 "apiRateTip": "Превышен лимит вызова API, пожалуйста, попробуйте позже!",
                 "exceedLimitTip": "Превышено использование API, пожалуйста, проверьте свой счет!",
-                "badGateTip": "Ошибка или тайм-аут шлюза, пожалуйста, попробуйте позже!",
-                "badEndpointTip": "Не удалось получить доступ к конечной точке, пожалуйста, проверьте конечную точку!",
+                "badGateTip": "Много запросов, пожалуйста, попробуйте позже!",
+                "badEndpointTip": "Много запросов, пожалуйста, попробуйте позже!",
                 "clearChatTip": "Очистить этот чат?",
                 "cantSpeechTip": "Текущий голос не может синтезировать это сообщение, пожалуйста, выберите другой голос или сообщение!",
             },
@@ -5054,5 +5052,4 @@ document.addEventListener('click', function(event) {
 <noscript><div><img src="https://mc.yandex.ru/watch/94104875" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
-
 </html>
