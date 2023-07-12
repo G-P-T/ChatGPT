@@ -7,8 +7,9 @@
     padding: 17px;
     border-radius: 17px;
     transform: translate(-50%,-50%);
-    background-color: #343541;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17px);
     color: #fff;
     z-index: 99999;
 }
@@ -19,6 +20,8 @@
     color: white;
     padding: 8px;
     border-radius: 5px;
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -30,7 +33,7 @@
         .requestBody,
         .response .markdown-body {
             max-width: calc(100% - 88px);
-        } 
+        }
 
         .bottom_wrapper {
             max-width: 100%;
